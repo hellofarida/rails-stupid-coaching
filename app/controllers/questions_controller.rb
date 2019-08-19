@@ -6,6 +6,8 @@ class QuestionsController < ApplicationController
     @answer = coach_answer
   end
 
+  private
+
   def coach_answer
     if @question == 'I am going to work'
       'Great!'
